@@ -1,4 +1,7 @@
 package com.mansoor.hotelbooking.repository;
 
-public class RoomRepository {
+import com.mansoor.hotelbooking.model.Room;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoomRepository extends JpaRepository<Room, Long> {
 }

@@ -17,6 +17,7 @@ import java.util.List;
 @AllArgsConstructor
 public class Room {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String roomType;
     private BigDecimal roomPrice;
